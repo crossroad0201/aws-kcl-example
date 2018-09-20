@@ -20,6 +20,8 @@ mainClassName = 'App'
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.amazonaws:amazon-kinesis-client:1.8.8'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'org.slf4j:jcl-over-slf4j:1.7.25'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
