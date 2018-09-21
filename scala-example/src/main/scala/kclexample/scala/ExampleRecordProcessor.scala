@@ -67,6 +67,7 @@ class ExampleRecordProcessor(
       case Success(_) => ()
       case Failure(e) =>
         println(s"An error occurred $e. That will be retry...")
+        Thread.sleep(3000)
         retry(f)
     }
   }
