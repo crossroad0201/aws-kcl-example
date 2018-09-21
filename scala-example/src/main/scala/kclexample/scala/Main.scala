@@ -21,7 +21,7 @@ object Main extends App {
     )
     .config(
       new KinesisClientLibConfiguration(
-        "kcl-java-example",
+        "kcl-scala-example",
         "kcl-sample",
         DefaultAWSCredentialsProviderChain.getInstance(),
         generateWorkerId()

@@ -15,7 +15,7 @@ plugins {
 }
 
 // Define the main class for the application
-mainClassName = 'App'
+mainClassName = 'Main'
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.

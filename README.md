@@ -7,4 +7,4 @@ Kinesis consumer application sample implementation using AWS Kinesis Client Libr
 
 * [Java Example](java-example/src/main/java/kclexample/java)
 * [Scala Example](scala-example/src/main/scala/kclexample/scala)
-
+* [Kotlin Example](kotlin-example/src/main/kotlin/kclexample/kotlin)
